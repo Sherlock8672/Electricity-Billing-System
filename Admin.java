@@ -4,8 +4,8 @@ package electricitybillingsystem;
 import java.util.*;
 
 class Admin {
-    private final String adminUsername = "jabir";
-    private final String adminPassword = "jabir2003";
+    private final String adminUsername = "admin";
+    private final String adminPassword = "admin2003";
 
     public boolean login(String username, String password) {
         return adminUsername.equals(username) && adminPassword.equals(password);
