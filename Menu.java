@@ -6,7 +6,7 @@ import java.util.*;
 class Menu {
     private Scanner sc = new Scanner(System.in);
     private Admin admin = new Admin();
-    private User user = new User();
+    
     private UserManager userManager = new UserManager();
 
     public void showMainMenu() {
